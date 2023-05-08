@@ -19,7 +19,7 @@
 
         Folder contains
 
-		(1) One ".cpp" file:
+		(1) One ".cpp" file to simulate the two patches model:
 	
 			C++ source code "phylo_patches.cpp"
 	
@@ -44,10 +44,10 @@
 				M - mean migration rate
 				T - isolation time
 			
-            For example,
-            ./[executable_name] 2 0.08 80
+            		For example,
+            		./[executable_name] 2 0.08 80
 			
-            Produces the following "data.txt":
+            		Produces the following "data.txt":
 			
 				Pop200_Isol80_Mig0.08_MS1_.txt
 				Pop200_Isol80_Mig0.08_Temporal1_.txt
@@ -57,19 +57,19 @@
 					
 				
 		
-		(2) One ".R" file:
+		(2) One ".R" file to built the phylogenies:
 		
 			R script "Trees.R"
 			
 			Execution asks precisely the same parameters input used for "data.txt" production.
 			
-            For example:
-      
-            tree_number = 1,
-            isolation_time = 80,
-            migration = 0.08,
-      
-            will generate the complete and extant phylogenies, as in the panels of Figure 2 of the main text.
+		    For example:
+
+		    tree_number = 1,
+		    isolation_time = 80,
+		    migration = 0.08,
+
+		    will generate the complete and extant phylogenies, as in the panels of Figure 2 of the main text.
 
 
 
